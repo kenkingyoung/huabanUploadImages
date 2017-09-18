@@ -149,7 +149,5 @@ class HuabanUploadFiles:
         print('\n图片[共 %s 张]上传已完成。' % len(image_path_list))
 
 if __name__ == '__main__':
-    HUABAN = HuabanUploadFiles('kenking0601@163.com', 'kenking0601', '小邋遢',
-                               r'D:/PythonCode/huaban_upload_files/img/')
-    # HUABAN = HuabanUploadFiles('用户名', '密码', '画板名称', r'存放待上传图片路径')
+    HUABAN = HuabanUploadFiles('用户名', '密码', '画板名称', r'存放待上传图片路径')
     HUABAN.upload()
